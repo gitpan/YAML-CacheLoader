@@ -1,7 +1,7 @@
 
 
 This archive contains the distribution YAML-CacheLoader,
-version 0.002:
+version 0.003:
 
   load YAML from cache or disk, whichever seems better
 
