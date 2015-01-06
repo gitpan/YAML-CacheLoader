@@ -30,7 +30,7 @@ my %WriteMakefileArgs = (
     "Test::Most" => "0.34",
     "Test::RedisServer" => "0.14"
   },
-  "VERSION" => "0.004",
+  "VERSION" => "0.005",
   "test" => {
     "TESTS" => "t/*.t"
   }
