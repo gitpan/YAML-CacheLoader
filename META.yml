@@ -20,4 +20,4 @@ requires:
   Path::Tiny: '0.061'
   Sereal: '3.005'
   YAML: '1.13'
-version: '0.003'
+version: '0.004'
