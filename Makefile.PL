@@ -22,7 +22,6 @@ my %WriteMakefileArgs = (
   "PREREQ_PM" => {
     "Cache::RedisDB" => "0.05",
     "Path::Tiny" => "0.061",
-    "Sereal" => "3.005",
     "YAML" => "1.13"
   },
   "TEST_REQUIRES" => {
@@ -30,7 +29,7 @@ my %WriteMakefileArgs = (
     "Test::Most" => "0.34",
     "Test::RedisServer" => "0.14"
   },
-  "VERSION" => "0.005",
+  "VERSION" => "0.006",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -42,7 +41,6 @@ my %FallbackPrereqs = (
   "ExtUtils::MakeMaker" => 0,
   "File::Temp" => "0.23",
   "Path::Tiny" => "0.061",
-  "Sereal" => "3.005",
   "Test::Most" => "0.34",
   "Test::RedisServer" => "0.14",
   "YAML" => "1.13"
