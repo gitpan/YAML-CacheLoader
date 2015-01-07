@@ -5,18 +5,32 @@ author:
 build_requires:
   File::Temp: '0.23'
   Test::Most: '0.34'
-  Test::RedisServer: '0.14'
 configure_requires:
   ExtUtils::MakeMaker: '0'
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 5.030, CPAN::Meta::Converter version 2.143240'
+generated_by: 'Dist::Zilla version 5.030, Dist::Milla version v1.0.9, CPAN::Meta::Converter version 2.143240'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: '1.4'
 name: YAML-CacheLoader
+no_index:
+  directory:
+    - t
+    - xt
+    - inc
+    - share
+    - eg
+    - examples
 requires:
-  Cache::RedisDB: '0.05'
-  Path::Tiny: '0.061'
-  YAML: '1.13'
-version: '0.006'
+  Cache::RedisDB: '0'
+  Path::Tiny: '0'
+  YAML: '0'
+resources:
+  bugtracker: https://github.com/binary-com/perl-YAML-CacheLoader/issues
+  homepage: https://github.com/binary-com/perl-YAML-CacheLoader
+  repository: https://github.com/binary-com/perl-YAML-CacheLoader.git
+version: '0.010'
+x_contributors:
+  - 'Jean-Yves Sireau <jy@binary.com>'
+  - 'Matt Miller <matt@binary.com>'

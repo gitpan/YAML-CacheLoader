@@ -3,6 +3,7 @@ use warnings;
 
 # ABSTRACT: load YAML from cache or disk, whichever seems better
 package YAML::CacheLoader;
+our $VERSION = '0.010';
 
 use base qw( Exporter );
 our @EXPORT_OK = qw( LoadFile DumpFile FlushCache );
